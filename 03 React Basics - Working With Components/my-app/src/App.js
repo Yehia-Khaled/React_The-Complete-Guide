@@ -30,10 +30,10 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
       </header>
       <body>
-        <Expenseitem expenses={expenses[0]}></Expenseitem>
-        <Expenseitem expenses={expenses[1]}></Expenseitem>
-        <Expenseitem expenses={expenses[2]}></Expenseitem>
-        <Expenseitem expenses={expenses[3]}></Expenseitem>
+        <Expenseitem expenses={expenses[0]}/>
+        <Expenseitem expenses={expenses[1]}/>
+        <Expenseitem expenses={expenses[2]}/>
+        <Expenseitem expenses={expenses[3]}/>
 
       </body>
     </div>
