@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './ExpenseItem.css';
 import ExpenseItemDate from "./ExpenseItemDate";
-import Card from "./Card";
+import Card from "../UI/Card";
 
 class Expenseitem extends React.Component {
     render() {

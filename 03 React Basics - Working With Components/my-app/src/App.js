@@ -1,8 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Expenseitem from './Components/ExpenseItem';
-import Expenses from './Components/Expenses'
+import Expenseitem from './Components/Expenses/ExpenseItem';
+import Expenses from './Components/Expenses/Expenses'
 
 
 function App() {
@@ -28,14 +28,14 @@ function App() {
         },
     ];
 
-    //Without using Jsx
+  /*  //Without using Jsx
     return React.createElement('div',{},
         React.createElement('h2',{},'Hi Yehia'),
         React.createElement(Expenses,{expenses:expenses})
-        );
+        );*/
 
     //Using JSX
- /* return (
+  return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -43,7 +43,7 @@ function App() {
           <Expenses expenses={expenses}/>
 
     </div>
-  );*/
+  );
 }
 
 export default App;
