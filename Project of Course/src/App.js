@@ -1,7 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Expenseitem from './Components/Expenses/ExpenseItem';
 import Expenses from './Components/Expenses/Expenses'
 
 
@@ -37,11 +35,7 @@ function App() {
     //Using JSX
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
           <Expenses expenses={expenses}/>
-
     </div>
   );
 }
