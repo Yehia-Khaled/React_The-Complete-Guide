@@ -6,6 +6,10 @@ import Card from "../UI/Card";
 class Expenseitem extends React.Component {
     render() {
         const { expenses } = this.props
+
+        const clickHandler=()=>{
+            console.log('Clicked!!')
+        }
         return (
             <Card className='expense-item'>
                 <ExpenseItemDate expenseDate={expenses.date}/>
@@ -13,6 +17,7 @@ class Expenseitem extends React.Component {
                     <h2>{expenses.title}</h2>
                     <div className='expense-item__price'>${expenses.amount} </div>
                 </div>
+                <button onClick={clickHandler}> Change Title</button>
             </Card>
         );
     }
