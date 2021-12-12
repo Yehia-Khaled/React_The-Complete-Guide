@@ -1,29 +1,44 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './ExpenseItem.css';
 import ExpenseItemDate from "./ExpenseItemDate";
 import Card from "../UI/Card";
+import {useState} from "react";
 
+//using function component
+const Expenseitem = (props) => {
+    const {expenses} = props
+    const [title, setTitle] = useState(expenses.title); //first element is the current state value, and the second is  a function for updating that.
+
+    // let title = expenses.title;
+    const clickHandler = () => {
+        // console.log('Clicked!!')
+        setTitle('Update!!') // we use this to execute function again after click or call this function or event happen
+
+        // title = 'Update!!'
+        console.log(title);
+    }
+    return (
+        <Card className='expense-item'>
+            <ExpenseItemDate expenseDate={expenses.date}/>
+            <div className='expense-item__description'>
+                <h2>{title}</h2>
+                <div className='expense-item__price'>${expenses.amount} </div>
+            </div>
+            <button onClick={clickHandler}> Change Title</button>
+        </Card>
+    );
+}
+
+/*
+//Using class Component
 class Expenseitem extends React.Component {
     render() {
-        const { expenses } = this.props
 
-        let title = expenses.title;
-        const clickHandler = () => {
-            // console.log('Clicked!!')
-            title = 'Updated!!'
-            console.log(title);
-        }
         return (
-            <Card className='expense-item'>
-                <ExpenseItemDate expenseDate={expenses.date}/>
-                <div className='expense-item__description'>
-                    <h2>{title}</h2>
-                    <div className='expense-item__price'>${expenses.amount} </div>
-                </div>
-                <button onClick={clickHandler}> Change Title</button>
-            </Card>
+
         );
     }
 }
+*/
 
 export default Expenseitem;
