@@ -9,6 +9,8 @@ const Expenseitem = (props) => {
     const {expenses} = props
     const [title, setTitle] = useState(expenses.title); //first element is the current state value, and the second is  a function for updating that.
 
+    console.log('ExpenseItem evaluated by react')
+
     // let title = expenses.title;
     const clickHandler = () => {
         // console.log('Clicked!!')
