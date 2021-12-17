@@ -78,6 +78,10 @@ using single state approach
         }
 
         console.log(expenseData)
+        //Using two-way binding allows you to gather user input but then also change it
+        setEnteredTitle('');
+        setEnteredAmount('');
+        setEnteredDate('');
     };
 
     return (
@@ -87,6 +91,7 @@ using single state approach
                     <label htmlFor="">Title</label>
                     <input
                         type="text"
+                        value={enteredTitle}
                         onChange={titleChangeHandler}
                     />
                 </div>
@@ -96,6 +101,7 @@ using single state approach
                         type="number"
                         min='0.01'
                         step='0.01'
+                        value={enteredAmount}
                         onChange={amountChangeHandler}
                     />
                 </div>
@@ -105,6 +111,7 @@ using single state approach
                         type="date"
                         min='2021-12-16'
                         max='2022-12-31'
+                        value={enteredDate}
                         onChange={dateChangeHandler}
                     />
                 </div>
