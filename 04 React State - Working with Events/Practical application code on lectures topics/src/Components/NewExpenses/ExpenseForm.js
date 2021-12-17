@@ -2,31 +2,51 @@ import React, {useState} from 'react';
 import './ExpenseForm.css'
 
 const ExpenseForm = () => {
-    //Use multiple setState
+/*
+//Use multiple setState
     //use useState to set state of title
     const [enteredTitle, setEnteredTitle] = useState('') //Using array Destructing
     //use useState to set state of Amount
     const [enteredAmount, setEnteredAmount] = useState('')
     //use useState to set state of Date
     const [enteredDate, setEnteredDate] = useState('')
+*/
 
+    //use one peace of state "Don't Repeat your self" -Here we need to update 3 items not gust one
+    const [userInput, setUserInput] = useState({
+        enteredTitle: '',
+        enteredAmount: '',
+        enteredDate: '',
+    })
 //Handler Function
     const titleChangeHandler = (event) => {
         // console.log('Title Changed!!');
         console.log(event.target.value); //print value of user input on console
-        setEnteredTitle(event.target.value);
+        // setEnteredTitle(event.target.value);
+        setUserInput({
+            ...userInput, //To make sure you don't lose accesses to old date from other state when update this state
+            enteredTitle: event.target.value,
+        })
 
     };
 
     const amountChangeHandler = (event) => {
         console.log(event.target.value); //print value of user input on console
-        setEnteredTitle(event.target.value);
+        // setEnteredAmount(event.target.value);
+        setUserInput({
+            ...userInput, //To make sure you don't lose accesses to old date from other state when update this state
+            enteredAmount: event.target.value,
+        })
 
     };
 
     const dateChangeHandler = (event) => {
-        console.log(event.target.value); //print value of user input on console
-        setEnteredTitle(event.target.value);
+        // console.log(event.target.value); //print value of user input on console
+        // setEnteredDate(event.target.value);
+        setUserInput({
+            ...userInput, //To make sure you don't lose accesses to old date from other state when update this state
+            enteredDate: event.target.value,
+        })
 
     };
     return (
