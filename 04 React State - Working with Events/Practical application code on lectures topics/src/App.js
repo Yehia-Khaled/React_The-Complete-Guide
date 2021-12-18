@@ -27,6 +27,11 @@ function App() {
         },
     ];
 
+    const addExpenseHandler = expense => {
+        console.log('in App.js')
+        console.log(expense)
+    }
+
     /*  //Without using Jsx
       return React.createElement('div',{},
           React.createElement('h2',{},'Hi Yehia'),
@@ -36,7 +41,7 @@ function App() {
     //Using JSX
     return (
         <div className="App">
-            <NewExpense/>
+            <NewExpense onAddExpense={addExpenseHandler}/>
             <Expenses expenses={expenses}/>
         </div>
     );

@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './ExpenseForm.css'
 
-const ExpenseForm = () => {
+const ExpenseForm = (props) => {
 //Use multiple setState approach
     //use useState to set state of title
     const [enteredTitle, setEnteredTitle] = useState('') //Using array Destructing
@@ -77,7 +77,8 @@ using single state approach
             date: new Date(enteredDate),
         }
 
-        console.log(expenseData)
+        // console.log(expenseData)
+        props.onSaveExpenseData(expenseData)
         //Using two-way binding allows you to gather user input but then also change it
         setEnteredTitle('');
         setEnteredAmount('');
