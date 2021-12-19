@@ -15,10 +15,13 @@ function Expenses(props) {
     return (
         <Card className="expenses">
             <ExpensesFilter selected={filteredYear} onChangeFilter={filterChangeHandler}/>
-            <Expenseitem expenses={expenses[0]}/>
+            {expenses.map((expense) => (
+                <Expenseitem key={expense.id} expenses={expense}/>
+            ))}
+            {/*<Expenseitem expenses={expenses[0]}/>
             <Expenseitem expenses={expenses[1]}/>
             <Expenseitem expenses={expenses[2]}/>
-            <Expenseitem expenses={expenses[3]}/>
+            <Expenseitem expenses={expenses[3]}/>*/}
         </Card>
     )
 }
