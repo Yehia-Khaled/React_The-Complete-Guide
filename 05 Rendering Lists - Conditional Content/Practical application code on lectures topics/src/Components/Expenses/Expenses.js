@@ -15,11 +15,11 @@ function Expenses(props) {
     return (
         <Card className="expenses">
             <ExpensesFilter selected={filteredYear} onChangeFilter={filterChangeHandler}/>
-            //Add items dynamically
+            {/*Add items dynamically*/}
             {expenses.map((expense) => (
                 <Expenseitem key={expense.id} expenses={expense}/>
             ))}
-            //Using static way
+            {/*Using static way*/}
             {/*<Expenseitem expenses={expenses[0]}/>
             <Expenseitem expenses={expenses[1]}/>
             <Expenseitem expenses={expenses[2]}/>
