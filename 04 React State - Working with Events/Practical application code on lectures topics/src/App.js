@@ -5,6 +5,7 @@ import NewExpense from "./Components/NewExpenses/NewExpense";
 
 
 function App() {
+
     const expenses = [
         {
             id: 'e1',
