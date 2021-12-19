@@ -7,6 +7,7 @@
 /03 React Basics - Working With Components/Section Image/
 /04 React State - Working with Events/017 Module Resources.html
 /04 React State - Working with Events/006 State can be updated in many ways!.html
+/04 React State - Working with Events/Section Image/
 /06 Styling React Components/
 /07 Debugging React Apps/
 /08 Time to Practice_ A Complete Practice Project/
@@ -43,3 +44,6 @@
 *.srt
 *.txt
 *.zip
+*.pdf
+/05 Rendering Lists - Conditional Content/010 Fixing a Small Bug.html
+/05 Rendering Lists - Conditional Content/011 Module Resources.html
