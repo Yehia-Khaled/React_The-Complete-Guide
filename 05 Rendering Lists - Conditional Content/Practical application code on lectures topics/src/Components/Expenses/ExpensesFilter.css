@@ -13,8 +13,8 @@
 
 #expense-filter__selection {
     text-align: right;
+    /*display: inline-block;*/
 }
-
 #expense-filter__selection select {
     /*text-align: right;*/
     /*background-color: chartreuse;*/
