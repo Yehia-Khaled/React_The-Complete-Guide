@@ -5,7 +5,7 @@ import Card from "../UI/Card";
 // import {useState} from "react";
 
 //using function component
-const Expenseitem = (props) => {
+const ExpenseItem = (props) => {
     const {expenses} = props
 
     // const [title, setTitle] = useState(expenses.title); //first element is the current state value, and the second is  a function for updating that.
@@ -43,4 +43,4 @@ class Expenseitem extends React.Component {
 }
 */
 
-export default Expenseitem;
+export default ExpenseItem;
