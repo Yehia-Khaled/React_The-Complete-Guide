@@ -1,4 +1,4 @@
-import './ExpensesFilter.css'
+import './Style/ExpensesFilter.css'
 
 function ExpensesFilter(props) {
     const dropdownChangeHandler = (event) => {
