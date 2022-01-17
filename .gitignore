@@ -11,7 +11,11 @@
 /05 Rendering Lists - Conditional Content/010 Fixing a Small Bug.html
 /05 Rendering Lists - Conditional Content/011 Module Resources.html
 /05 Rendering Lists - Conditional Content/Section Image/
-/07 Debugging React Apps/
+/06 Styling React Components/Practical application code on lectures topics/
+/06 Styling React Components/009 Module Resources.html
+/06 Styling React Components/Section Image/
+/07 Debugging React Apps/006 Module Resources.html
+/07 Debugging React Apps/Section Image/
 /08 Time to Practice_ A Complete Practice Project/
 /09 Diving Deeper_ Working with Fragments, Portals & _Refs_/
 /10 Advanced_ Handling Side Effects, Using Reducers & Using the Context API/
@@ -47,5 +51,3 @@
 *.txt
 *.zip
 *.pdf
-/06 Styling React Components/Practical application code on lectures topics/
-/06 Styling React Components/009 Module Resources.html
