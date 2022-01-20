@@ -13,7 +13,7 @@ const App = () => {
     const addGoalHandler = enteredText => {
         setCourseGoals(prevGoals => {
             const updatedGoals = [...prevGoals];
-            updatedGoals.unshift({text: enteredText, id: 'goal1'}); /*there is error here while using string in id*/
+            updatedGoals.unshift({text: enteredText, id: Math.random().toString()}); /*there is error here as we use string as id 'goal1'*/
             return updatedGoals;
         });
     };
