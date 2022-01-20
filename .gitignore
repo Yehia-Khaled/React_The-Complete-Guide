@@ -1,3 +1,4 @@
+/0. Websites you may like/
 /01 Getting Started/
 /02 JavaScript Refresher/
 /03 React Basics & Working With Components/005 The Starting Project.html
@@ -16,7 +17,6 @@
 /06 Styling React Components/Section Image/
 /07 Debugging React Apps/006 Module Resources.html
 /07 Debugging React Apps/Section Image/
-/08 Time to Practice_ A Complete Practice Project/
 /09 Diving Deeper_ Working with Fragments, Portals & _Refs_/
 /10 Advanced_ Handling Side Effects, Using Reducers & Using the Context API/
 /11 Practice Project_ Building a Food Order App/
@@ -40,7 +40,6 @@
 /29 Optional_ React Summary & Core Feature Walkthrough/
 /30 Course Roundup/
 /31 This Course Got Updated!/
-/0. Websites you may like/
 /12 A Look Behind The Scenes Of React - Optimization Techniques/
 /17 Practice Project_ Adding Http - Forms To The Food Order App/
 /28 Optional_ React Hooks Introduction - Summary/
@@ -51,3 +50,6 @@
 *.txt
 *.zip
 *.pdf
+/08 Time to Practice_ A Complete Practice Project/Section Image/
+/08 Time to Practice_ A Complete Practice Project/01-starting-project/
+/08 Time to Practice_ A Complete Practice Project/011 Module Resources.html
