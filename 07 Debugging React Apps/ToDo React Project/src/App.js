@@ -48,3 +48,5 @@ const App = () => {
 };
 
 export default App;
+
+//end of Section 07 Debugging React Apps
