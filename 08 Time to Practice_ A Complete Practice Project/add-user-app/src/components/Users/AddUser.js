@@ -4,6 +4,7 @@ import Card from "../UI/Card";
 import Button from "../UI/Button";
 
 import classes from './AddUser.module.css'
+import UsersList from "./UsersList";
 
 const AddUser = (props) => {
     const [enteredUsername, setEnteredUsername] = useState(''); /*Array destructing*/
