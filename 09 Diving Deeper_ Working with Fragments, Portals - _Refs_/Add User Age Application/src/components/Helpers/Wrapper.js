@@ -1,5 +1,5 @@
 const Wrapper = props => {
-    return props.cheldren;
+    return props.children;
 };
 
 export default Wrapper;
