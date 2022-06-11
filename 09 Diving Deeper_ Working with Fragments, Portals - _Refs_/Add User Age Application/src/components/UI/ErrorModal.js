@@ -24,5 +24,4 @@ const ErrorModal = (props) => {
         </Wrapper>
     );
 };
-
 export default ErrorModal;
