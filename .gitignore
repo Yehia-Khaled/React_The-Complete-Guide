@@ -21,19 +21,18 @@
 /08 Time to Practice_ A Complete Practice Project/011 Module Resources.html
 /09 Diving Deeper_ Working with Fragments, Portals - _Refs_/Section Image/
 /09 Diving Deeper_ Working with Fragments, Portals - _Refs_/009 Module Resources.html
-/10 Advanced_ Handling Side Effects, Using Reducers & Using the Context API/005 What to add & Not to add as Dependencies.html
-/10 Advanced_ Handling Side Effects, Using Reducers & Using the Context API/011 Adding Nested Properties As Dependencies To useEffect.html
-/10 Advanced_ Handling Side Effects, Using Reducers & Using the Context API/022 Module Resources.html
-/10 Advanced_ Handling Side Effects, Using Reducers & Using the Context API/Section Image/
-/10 Advanced_ Handling Side Effects, Using Reducers & Using the Context API/01-starting-project/node_modules/
-/10 Advanced_ Handling Side Effects, Using Reducers & Using the Context API/10-side-effects-reducers-context-api/
+/10 Advanced_ Handling Side Effects, Using Reducers  _ Using the Context API/Section Image/
+/10 Advanced_ Handling Side Effects, Using Reducers  _ Using the Context API/005 What to add & Not to add as Dependencies.html
+/10 Advanced_ Handling Side Effects, Using Reducers  _ Using the Context API/011 Adding Nested Properties As Dependencies To useEffect.html
+/10 Advanced_ Handling Side Effects, Using Reducers  _ Using the Context API/022 Module Resources.html
+/10 Advanced_ Handling Side Effects, Using Reducers  _ Using the Context API/10-side-effects-reducers-context-api/
 /11 Practice Project_ Building a Food Order App/
-/12 A Look Behind The Scenes Of React & Optimization Techniques/
+/12 A Look Behind The Scenes Of React - Optimization Techniques/
 /13 An Alternative Way Of Building Components_ Class-based Components/
 /14 Sending Http Requests (e.g. Connecting to a Database)/
 /15 Building Custom React Hooks/
-/16 Working with Forms & User Input/
-/17 Practice Project_ Adding Http & Forms To The Food Order App/
+/16 Working with Forms_ User Input/
+/17 Practice Project_ Adding Http - Forms To The Food Order App/
 /18 Diving into Redux (An Alternative To The Context API)/
 /19 Advanced Redux/
 /20 Building a Multi-Page SPA with React Router/
@@ -44,17 +43,13 @@
 /25 Replacing Redux with React Hooks/
 /26 Testing React Apps (Unit Tests)/
 /27 React + TypeScript/
-/28 Optional_ React Hooks Introduction & Summary/
-/29 Optional_ React Summary & Core Feature Walkthrough/
+/28 Optional_ React Hooks Introduction - Summary/
+/29 Optional_ React Summary _ Core Feature Walkthrough/
 /30 Course Roundup/
 /31 This Course Got Updated!/
-/12 A Look Behind The Scenes Of React - Optimization Techniques/
-/17 Practice Project_ Adding Http - Forms To The Food Order App/
-/28 Optional_ React Hooks Introduction - Summary/
 *.png
 *.mp4
 *.srt
 *.txt
 *.zip
 *.pdf
-/10 Advanced_ Handling Side Effects, Using Reducers & Using the Context API/01-starting-project/
