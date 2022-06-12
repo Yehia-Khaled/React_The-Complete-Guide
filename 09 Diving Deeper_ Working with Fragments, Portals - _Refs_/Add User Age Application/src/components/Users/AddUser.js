@@ -88,5 +88,4 @@ const AddUser = (props) => {
         </Wrapper>
     );
 };
-
 export default AddUser;
